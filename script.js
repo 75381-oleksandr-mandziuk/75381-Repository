@@ -4,7 +4,7 @@ const themeStyle = document.getElementById('theme-style');
 themeBtn.addEventListener('click', function() {
     if (themeStyle.getAttribute('href') === 'red.css') {
         themeStyle.setAttribute('href', 'green.css');
-        themeBtn.textContent = 'Zmień motyw (Czerwony)'; 
+        themeBtn.textContent = 'Zmień motyw (Czerwony)';
     } else {
         themeStyle.setAttribute('href', 'red.css');
         themeBtn.textContent = 'Zmień motyw (Zielony)';
@@ -12,14 +12,14 @@ themeBtn.addEventListener('click', function() {
 });
 
 const toggleSectionBtn = document.getElementById('toggle-section-btn');
-const projektySekcja = document.getElementById('projekty-sekcja');
+const omnieSekcja = document.getElementById('omnie-sekcja');
 
 toggleSectionBtn.addEventListener('click', function() {
-    if (projektySekcja.style.display !== 'none') {
-        projektySekcja.style.display = 'none';
-        toggleSectionBtn.textContent = 'Pokaż Projekty';
+    if (omnieSekcja.style.display !== 'none') {
+        omnieSekcja.style.display = 'none';
+        toggleSectionBtn.textContent = 'Pokaż O mnie';
     } else {
-        projektySekcja.style.display = 'block';
-        toggleSectionBtn.textContent = 'Ukryj Projekty';
+        omnieSekcja.style.display = 'block';
+        toggleSectionBtn.textContent = 'Ukryj O mnie';
     }
 });
