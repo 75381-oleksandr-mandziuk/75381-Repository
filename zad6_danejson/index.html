@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Oleksandr Mandziuk (75381)</title>
+    <link id="theme-style" rel="stylesheet" href="red.css">
+</head>
+<body>
+
+    <header>
+        <h1 id="cv-imie-nazwisko"></h1>
+        <p id="cv-indeks"></p>
+        
+        <div style="margin-top: 15px;">
+            <button id="theme-btn" style="padding: 10px; cursor: pointer; margin-right: 10px;">Zmień motyw (Zielony)</button>
+            <button id="toggle-section-btn" style="padding: 10px; cursor: pointer;">Ukryj O mnie</button>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <h2>Kontakt</h2>
+            <p>E-mail: <a id="cv-email" href=""></a></p>
+            <p>Telefon: <a id="cv-telefon" href=""></a></p>
+            <p id="cv-miasto"></p>
+            <p>
+                <a id="cv-github" href="" target="_blank" rel="noopener noreferrer">Mój GitHub</a> | 
+                <a id="cv-linkedin" href="" target="_blank" rel="noopener noreferrer">Mój LinkedIn</a>
+            </p>
+        </section>
+
+        <section id="omnie-sekcja">
+            <h2>O mnie</h2>
+            <img id="cv-zdjecie" src="" alt="">
+            <p id="cv-omnie-tekst"></p>
+        </section>
+
+        <section>
+            <h2>Umiejętności</h2>
+            <ul id="lista-umiejetnosci"></ul>
+        </section>
+
+        <section>
+            <h2>Doświadczenie</h2>
+            <div id="doswiadczenie-kontener"></div>
+        </section>
+
+        <section>
+            <h2>Edukacja</h2>
+            <p id="edukacja-kontener"></p>
+        </section>
+
+        <section>
+            <h2>Projekty</h2>
+            <ul id="lista-projektow"></ul>
+        </section>
+
+        <section id="kontakt-formularz-sekcja">
+            <h2>Napisz do mnie</h2>
+            <form id="kontakt-form">
+                <div style="margin-bottom: 15px;">
+                    <label for="imie">Imię:</label><br>
+                    <input type="text" id="imie" name="imie" style="width: 100%; max-width: 400px; padding: 8px;">
+                    <span id="imie-error" style="color: red; font-size: 0.85em; display: block;"></span>
+                </div>
+
+                <div style="margin-bottom: 15px;">
+                    <label for="nazwisko">Nazwisko:</label><br>
+                    <input type="text" id="nazwisko" name="nazwisko" style="width: 100%; max-width: 400px; padding: 8px;">
+                    <span id="nazwisko-error" style="color: red; font-size: 0.85em; display: block;"></span>
+                </div>
+
+                <div style="margin-bottom: 15px;">
+                    <label for="email">E-mail:</label><br>
+                    <input type="email" id="email" name="email" style="width: 100%; max-width: 400px; padding: 8px;">
+                    <span id="email-error" style="color: red; font-size: 0.85em; display: block;"></span>
+                </div>
+
+                <div style="margin-bottom: 15px;">
+                    <label for="wiadomosc">Wiadomość:</label><br>
+                    <textarea id="wiadomosc" name="wiadomosc" rows="4" style="width: 100%; max-width: 400px; padding: 8px;"></textarea>
+                    <span id="wiadomosc-error" style="color: red; font-size: 0.85em; display: block;"></span>
+                </div>
+
+                <button type="submit" style="padding: 10px 20px; cursor: pointer;">Wyślij wiadomość</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p id="cv-stopka"></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
