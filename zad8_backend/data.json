@@ -1,0 +1,52 @@
+{
+  "naglowek": {
+    "imieNazwisko": "Oleksandr Mandziuk - CV",
+    "indeks": "Nr albumu: 75381" 
+  },
+  "kontakt": {
+    "email": "omandzi1@stu.vistula.edu.pl",
+    "telefon": "+48 578 566 228",
+    "miasto": "Warszawa",
+    "github": "https://github.com/75381-oleksandr-mandziuk",
+    "linkedin": "https://www.linkedin.com/in/oleksandr-mandziuk-185b4838b/"
+  },
+  "oMnie": {
+    "zdjecie": "moje_zdjecie.jpg",
+    "alt": "Zdjęcie profilowe - Oleksandr Mandziuk",
+    "tekst": "Mam 17 lat i jestem studentem pierwszego roku informatyki w Warszawie. Interesuję się programowaniem, sprzętem komputerowym i gamingiem. Szybko się uczę i w przyszłości planuję założyć własny biznes w branży IT. Obecnie skupiam się na nauce logiki programowania i tworzeniu własnych projektów."
+  },
+  "umiejetnosci": [
+    "Podstawy programowania w języku C# (aplikacje konsolowe)",
+    "Znajomość sprzętu komputerowego i peryferiów gamingowych",
+    "Podstawy relacyjnych baz danych (SQL, diagramy)",
+    "Języki: ukraiński (ojczysty), polski (dobry), angielski",
+    "Praca w zespole i łatwość w nawiązywaniu kontaktów"
+  ],
+  "doswiadczenie": [
+    {
+      "stanowisko": "Kelner",
+      "opis": "Warszawa. Obsługa klientów w dynamicznym środowisku, praca pod presją czasu oraz dbanie o pozytywny wizerunek lokalu."
+    },
+    {
+      "stanowisko": "Wolontariusz",
+      "opis": "Aktywny udział w akcjach wolontariackich. Pomoc w organizacji wydarzeń, wsparcie logistyczne oraz praca w grupie nad wspólnym celem."
+    }
+  ],
+  "edukacja": {
+    "uczelnia": "Vistula University (Akademia Finansów i Biznesu Vistula)",
+    "kierunek": "Informatyka",
+    "indeks": "75381",
+    "rok": "1. rok (2. semestr)"
+  },
+  "projekty": [
+    {
+      "nazwa": "Symulator bankomatu (C#)",
+      "opis": "Aplikacja konsolowa symulująca podstawowe operacje bankowe, takie jak wpłata, wypłata i sprawdzanie salda, z wykorzystaniem instrukcji warunkowych i pętli."
+    },
+    {
+      "nazwa": "Symulator automatu z przekąskami (C#)",
+      "opis": "Program odzwierciedlający działanie maszyny vendingowej, w tym wybór produktu, przyjmowanie \"monet\" i wydawanie reszty."
+    }
+  ],
+  "stopka": "CV stworzone na zaliczenie laboratorium. 2026 | Indeks: 75381"
+}
